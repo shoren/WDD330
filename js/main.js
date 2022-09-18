@@ -2,7 +2,7 @@ window.onload = function createList(){
 
     //add new items to the array here!
     let myArrayOfLinks =[
-        {"url": "https://www.google.com/","label":"Week 01"},
+        {"url": "week01.html","label":"Week 01"},
         {"url": "https://www.google.com/","label":"Week 02"},
         {"url": "Url Goes here","label":"Week 03"}
     ]
