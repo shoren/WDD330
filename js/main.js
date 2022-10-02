@@ -4,7 +4,7 @@ window.onload = function createList(){
     let myArrayOfLinks =[
         {"url": "week01.html","label":"Week 01"},
         {"url": "week02.html","label":"Week 02"},
-        {"url": "Url Goes here","label":"Week 03"}
+        {"url": "week03.html","label":"Week 03"}
     ]
 
 
@@ -13,7 +13,6 @@ window.onload = function createList(){
         let articleElement = document.createElement('a');
         document.getElementById('myOL').append(articleElement);
         
-
         // get the link
         var myArray = myArrayOfLinks[i].label;
         let hrefValue = myArrayOfLinks[i].url;
