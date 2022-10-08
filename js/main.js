@@ -4,7 +4,8 @@ window.onload = function createList(){
     let myArrayOfLinks =[
         {"url": "week01.html","label":"Week 01"},
         {"url": "week02.html","label":"Week 02"},
-        {"url": "week03.html","label":"Week 03"}
+        {"url": "week03.html","label":"Week 03"},
+        {"url": "week04.html","label":"Week 04"}
     ]
 
 
