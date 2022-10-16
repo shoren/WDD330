@@ -5,7 +5,9 @@ window.onload = function createList(){
         {"url": "week01.html","label":"Week 01"},
         {"url": "week02.html","label":"Week 02"},
         {"url": "week03.html","label":"Week 03"},
-        {"url": "week04.html","label":"Week 04"}
+        {"url": "week04.html","label":"Week 04"},
+        {"url": "week05.html","label":"Week 05"},
+
     ]
 
 
