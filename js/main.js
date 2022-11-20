@@ -9,6 +9,7 @@ window.onload = function createList(){
         {"url": "week05.html","label":"Week 05"},
         {"url": "week08.html","label":"Week 08"},
         {"url": "week09.html","label":"Week 09"},
+        {"url": "week10.html","label":"Final Project Rough Draft"},
     ]
 
 

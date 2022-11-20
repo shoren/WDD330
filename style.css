@@ -1,0 +1,42 @@
+.mainContainer {
+    background-color: lightgray;
+    border-radius: 20px;
+    border: solid black;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.titleHeader {
+    text-align: center;
+    font: red;
+    font-size:x-large
+    
+}
+
+.incomeForm {
+    background-color: lightgreen;
+    border: solid green;
+    padding: 1em;
+    margin-right: 50%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+
+.expensesForm {
+    background-color: pink;
+    border: solid red; 
+    padding: 1em;
+    margin-right: 50%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+
+
+.startingAmountForm{
+    background-color: lightblue;
+    border: solid blue; 
+    padding: 1em;
+    margin-right: 50%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
