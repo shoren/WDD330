@@ -9,15 +9,14 @@
 .titleHeader {
     text-align: center;
     font: red;
-    font-size:x-large
-    
+    font-size:x-large;
+    margin-top: -2%;    
 }
 
 .incomeForm {
     background-color: lightgreen;
     border: solid green;
     padding: 1em;
-    margin-right: 50%;
     margin-left: 2%;
     margin-bottom: 3%;
 }
@@ -26,7 +25,6 @@
     background-color: pink;
     border: solid red; 
     padding: 1em;
-    margin-right: 50%;
     margin-left: 2%;
     margin-bottom: 3%;
 }
@@ -36,7 +34,48 @@
     background-color: lightblue;
     border: solid blue; 
     padding: 1em;
-    margin-right: 50%;
     margin-left: 2%;
     margin-bottom: 3%;
+}
+
+.totalAmount{
+    background-color: lightcyan;
+    border: solid rgb(128, 167, 180);
+    width: 50%;
+    text-align: center;
+}
+
+
+
+
+.leftSideContainer{
+    float: left;
+}
+
+.rightSideContainer{
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+}
+
+
+.bigContainer{
+    display: flex;
+    background-color: lightgrey;
+    justify-content: space-between;
+}
+
+.evenBiggerContainer{
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 2em;
+    background-color: lightgrey;
+    border: solid black;
+    border-radius: 20px;
+}
+
+.myButton{
+    margin-top: 0.5em;
+    padding: 0.1em;
 }

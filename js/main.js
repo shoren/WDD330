@@ -10,6 +10,7 @@ window.onload = function createList(){
         {"url": "week08.html","label":"Week 08"},
         {"url": "week09.html","label":"Week 09"},
         {"url": "week10.html","label":"Final Project Rough Draft"},
+        {"url": "week12.html","label":"Final Project Less Rough Draft"},
     ]
 
 
@@ -25,5 +26,5 @@ window.onload = function createList(){
         var li = document.createElement('li');
         li.appendChild(document.createTextNode(myArray));
         articleElement.appendChild(li);
-    }
+    }    
 }

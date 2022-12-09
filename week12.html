@@ -1,0 +1,42 @@
+<!-- This is going to be the index for the thing in the thing  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Budget Tracker</title>
+</head>
+<body>
+<div class="evenBiggerContainer">
+    <h2 class="titleHeader">Budget Tracker</h2>
+    <div class="bigContainer">
+        <div class="leftSideContainer">
+            <div class="incomeForm">
+                <label id="incomeLabel">Add To Budget: </label><br><input id="incomeInput">
+                <button class="myButton" onclick="incomeFunction()">Add Income Amount</button>
+            </div>
+            <div class="expensesForm">
+                <label id="expenseLabel">Subtract from budget: </label><br><input id="expenseInput"/>
+                <button class="myButton" onclick="expenseFunction()">Add Expense Amount</button>
+            </div>
+            <div class="startingAmountForm">
+                <label id="startingLabel">Starting Amount: </label><br><input id="startingInput"/>
+                <button class="myButton" onclick="startingAmountFunction()">Starting Amount</button>
+            </div>
+        </div>
+        <div class="rightSideContainer">
+            <div class="totalAmount">
+                <h2 >Current Total: </h2>
+                <br>
+                <br>
+                <br>
+                <p id="myTotal">Total Goes here</p>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="js/budget.js"></script>
+
+</body>
+</html>
