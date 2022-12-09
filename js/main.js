@@ -26,5 +26,10 @@ window.onload = function createList(){
         var li = document.createElement('li');
         li.appendChild(document.createTextNode(myArray));
         articleElement.appendChild(li);
-    }    
+    }   
+    
+    
+    
 }
+
+
