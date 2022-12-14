@@ -10,7 +10,8 @@ window.onload = function createList(){
         {"url": "week08.html","label":"Week 08"},
         {"url": "week09.html","label":"Week 09"},
         {"url": "week10.html","label":"Final Project Rough Draft"},
-        {"url": "week12.html","label":"Final Project Less Rough Draft"},
+        {"url": "week12.html","label":"Final Project"},
+        {"url": "quiz/index.html","label":"Quiz Ninja "},
     ]
 
 
@@ -31,15 +32,3 @@ window.onload = function createList(){
     
     
 }
-
-
-import { view, game } from './quiz.js';
-
-const url = 'http://spbooks.github.io/questions.json';
-
-fetch(url)
-.then(res => res.json())
-.then(quiz => {
-    view.start.addEventListener('click', () => game.start(quiz.questions), false);
-    view.response.addEventListener('click', (event) => game.check(event), false);
-});
