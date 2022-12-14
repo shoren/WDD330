@@ -5,7 +5,7 @@ window.onload = function() {
 
 function startingAmountFunction() {
     var starting = document.getElementById("startingInput");
-    document.getElementById("myTotal").innerHTML = starting.value;
+    document.getElementById("myTotal").innerHTML = "$" + starting.value;
     localStorage.setItem('myTotal', starting.value);
 }
 
@@ -21,7 +21,7 @@ function incomeFunction(){
 function expenseFunction(){
     var expense = document.getElementById("expenseInput");
     
-    currentTotal = parseFloat(localStorage.getItem("myTotal")) -parseFloat(expense.value);
+    currentTotal = parseFloat(localStorage.getItem("myTotal")) - parseFloat(expense.value);
     
     localStorage.setItem('myTotal', currentTotal);
     document.getElementById("myTotal").innerHTML = '$' + currentTotal;
